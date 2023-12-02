@@ -1,0 +1,100 @@
+body {
+  background-image: url(../img/background2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Montserrat;
+  color: aliceblue;
+}
+
+
+.photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  border: 2px solid snow;
+  box-shadow: 46px 46px 46px rgba(0, 0, 0, 0.25);
+  margin: 15px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  margin-left: 450px;
+  font-weight: 500;
+  font-style: italic;
+  
+  }
+
+.bio-section {
+    position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  width: 650px;
+  height: 250px;
+  border-radius: 20px;
+  border: 2px solid #ffe7e794;
+  background: rgba(0, 0, 0, 0.137);
+  box-shadow: 46px 46px 40px 0px rgba(0, 0, 0, 0.281);
+  backdrop-filter: blur(25px);
+}
+
+.biography {
+    display: flex;
+    word-wrap: break-word;
+    width: 650px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    text-shadow: 46px 46px 46px rgba (0, 0, 0, 0.25);   
+}
+
+.footer {
+  font-family: Montserrat;
+  font-size: 30px;
+  display: flex;
+  right: 300px;
+  top: 350px;
+  flex-direction: column;
+  position: absolute;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 25px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  word-wrap: warp;
+  width: 450px;
+
+}
+
+.switch-person {
+  display: flex;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  right: 300px;
+  bottom: 40px;
+}
